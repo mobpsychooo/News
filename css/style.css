@@ -1,0 +1,144 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+body {
+    font-family: 'RobotoR';
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img {
+    margin: 15px 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu__link {
+    color: #3A3838;
+    font-family: 'RobotoB';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.menu__link:hover {
+    color: #EF4423;
+}
+
+.news__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news__queue {
+    max-width: 350px;
+}
+
+.news__text {
+    padding: 8px 15px 15px;
+    color: #EBEBEB;
+}
+
+.text__h3 {
+    font-family: 'RobotoB';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.text__p {
+    font-family: 'RobotoR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.main__h2 {
+    font-family: 'RobotoB';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.view {
+    background: #EDEDED;
+    margin-bottom: 50px;
+}
+
+.view__wrap {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.view__h3 {
+    font-family: 'RobotoB';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 20px 0 30px;
+}
+
+.view__p {
+    font-family: 'RobotoR';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-bottom: 31px;
+}
+
+.footer {
+    background: #3A3838;
+}
+
+.footer__wrap {
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer__link{
+    color: white;
+    font-family: 'RobotoB';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.footer__link:hover{
+    color: #EF4423;
+}
